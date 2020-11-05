@@ -1,5 +1,13 @@
 # Flutter Local Notifications plugin
 
+> Notification နဲ့ ပတ်သက်ရင် အမှားများလွန်းလို့ အချိန်မရွေး ပြန်ကြည့်နိုင်အောင် တင်ထားရပါတယ်။
+
+မှတ်သားရန် အချက်များ
+- cotext error တွေ ကြောင့် MaterialApp ကို နှစ်ထပ်အုပ်ရပါတယ်
+- မြန်မာနိုင်ငံရဲ့ ထင်ပေါ်ကျော်ကြားမှုတွေကြောင့် timezone setup လုပ်တဲ့အခါ Asis/Rangoon နဲ့ initialize လုပ်ရပါတယ်။
+- ကျန်တာကတော့ copy cat မလုပ်ခင်မှာ သက်ဆိုင်ရာ OS အလိုက် setup အရင်လုပ်ပါ။ Android အတွက်က ပြသနာ မရှိပေမယ့် iOS နဲ့ Mac အတွက်တော့ ကိုယ်လည်း မပြောတက်။ အဆင်ပြေသွားပါလိမ့်မယ်။
+ 
+
 This repository consists hosts the following packages
 
 - `flutter_local_notifications`: code for the cross-platform facing plugin used to display local notifications within Flutter applications
